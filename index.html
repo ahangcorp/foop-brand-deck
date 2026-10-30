@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>foop for Brands 소개서 · 최종본 확인</title><style>@font-face{font-family:'Pretendard';src:url(fonts/Pretendard.woff2) format('woff2');font-weight:100 900}
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#050a08"><title>foop for Brands 소개서</title><style>@font-face{font-family:'Pretendard';src:url(fonts/Pretendard.woff2) format('woff2');font-weight:100 900}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#222;display:flex;flex-direction:column;align-items:center;gap:40px;padding:20px}
 section{position:relative;width:1920px;height:1080px;overflow:hidden;flex:none;zoom:var(--z,1)}
@@ -10,23 +10,14 @@ x-shape[kind="arrow-right"]{clip-path:polygon(0 30%,60% 30%,60% 0,100% 50%,60% 1
 x-connector{display:block;height:0;border-top:2px solid currentColor;align-self:center}
 table{border-collapse:collapse}
 x-icon{display:inline-block;border-radius:50%;border:3px solid currentColor;box-sizing:border-box}
-body{background:#161a18;color:#eef3f1;display:block;padding:0;overflow:hidden}
-.review-toolbar{height:72px;display:flex;align-items:center;gap:10px;padding:12px 18px;background:#07110e;border-bottom:1px solid rgba(238,243,241,.14);font-family:'Pretendard',Arial,sans-serif}
-.review-title{font-size:16px;font-weight:700;white-space:nowrap}
-.review-title span{color:#5ef2c8}
-.review-toolbar button,.review-toolbar select{height:42px;border:1px solid rgba(238,243,241,.18);border-radius:10px;background:#14201c;color:#eef3f1;padding:0 14px;font:inherit;white-space:nowrap}
-.review-toolbar button{cursor:pointer}
-.review-toolbar button:hover{border-color:#5ef2c8}
-.review-toolbar button:disabled{opacity:.4;cursor:not-allowed}
-.review-toolbar select{min-width:320px;max-width:620px}
-.review-counter{margin-left:auto;color:#5ef2c8;font-size:14px;font-weight:700;white-space:nowrap}
-.review-stage{height:calc(100dvh - 72px);display:flex;align-items:center;justify-content:center;padding:16px;overflow:hidden;background:#222}
-.review-viewport{position:relative;flex:none;box-shadow:0 28px 90px rgba(0,0,0,.45)}
-.review-frame{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:top left}
-.review-frame>section{zoom:1}
-.review-frame>section:not(.active){display:none!important}
-@media(max-width:900px){.review-title{display:none}.review-toolbar{padding:10px;height:64px;overflow-x:auto}.review-toolbar select{min-width:220px}.review-counter{margin-left:0}.review-stage{height:calc(100dvh - 64px);padding:8px}}
-</style></head><body><header class="review-toolbar"><div class="review-title"><span>FOOP</span> 최종본 확인</div><button id="reviewPrev" type="button" aria-label="이전 슬라이드">←</button><select id="reviewPicker" aria-label="슬라이드 선택"></select><button id="reviewNext" type="button" aria-label="다음 슬라이드">→</button><button id="reviewFullscreen" type="button">전체 화면</button><div id="reviewCounter" class="review-counter"></div></header><main id="reviewStage" class="review-stage"><div id="reviewViewport" class="review-viewport"><div id="reviewFrame" class="review-frame"><section id="hero" data-transition="fade" style="background:radial-gradient(ellipse at 50% 100%, #0f2b22 0%, #050a08 62%);color:#eef3f1;font-family:'Pretendard', 'Noto Sans KR', Arial, sans-serif;padding:128px;display:flex;flex-direction:column">
+html,body{width:100%;height:100%;overflow:hidden;background:#050a08}
+body{display:block;padding:0;user-select:none;-webkit-user-select:none}
+.share-stage{width:100vw;height:100dvh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#050a08;touch-action:pan-y pinch-zoom}
+.share-viewport{position:relative;flex:none;background:#050a08}
+.share-frame{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:top left}
+.share-frame>section{zoom:1}
+.share-frame>section:not(.active){display:none!important}
+</style></head><body><main id="shareStage" class="share-stage" aria-label="foop for Brands 소개서"><div id="shareViewport" class="share-viewport"><div id="shareFrame" class="share-frame"><section id="hero" data-transition="fade" style="background:radial-gradient(ellipse at 50% 100%, #0f2b22 0%, #050a08 62%);color:#eef3f1;font-family:'Pretendard', 'Noto Sans KR', Arial, sans-serif;padding:128px;display:flex;flex-direction:column">
 <img src="images/strip_g.png" alt="FOOP에서 만든 AI 코디와 런웨이 장면" style="position:absolute;left:0px;top:680px;width:1920px;height:400px;object-fit:cover"><p style="position:absolute;left:1512px;top:44px;width:280px;text-align:center;font-size:24px;font-weight:600;color:#03140e;background:#5ef2c8;border-radius:999px;padding:10px 20px">FOOP 입점 소개서</p><img src="images/foop.png" alt="foop" style="position:absolute;left:77px;top:62px;width:782px;height:381px;object-fit:contain"><p style="position:absolute;left:850px;top:262px;width:700px;font-size:104px;font-weight:300;letter-spacing:-3px;line-height:1.0;color:#eef3f1">for Brands</p><h1 style="position:absolute;left:128px;top:452px;width:1080px;font-size:96px;font-weight:400;letter-spacing:-2.4px;line-height:1.1;color:#eef3f1">내 브랜드를 홍보하는<br><span style="color:#5ef2c8">새로운 마케팅 공간</span></h1><p style="position:absolute;left:1250px;top:562px;width:542px;font-size:36px;letter-spacing:-0.6px;line-height:1.4;color:#eef3f1"><br></p><p style="position:absolute;right:32px;bottom:24px;width:360px;text-align:center;font-size:24px;color:#eef3f1;background:rgba(5,10,8,0.72);border-radius:999px;padding:6px 16px">FOOP으로 생성한 AI 이미지</p>
 <aside></aside>
 </section>
@@ -379,20 +370,18 @@ body{background:#161a18;color:#eef3f1;display:block;padding:0;overflow:hidden}
 <aside></aside>
 </section>
 </div></div></main><script>
-const frame=document.querySelector('#reviewFrame');
-const viewport=document.querySelector('#reviewViewport');
-const stage=document.querySelector('#reviewStage');
+const frame=document.querySelector('#shareFrame');
+const viewport=document.querySelector('#shareViewport');
+const stage=document.querySelector('#shareStage');
 const slides=[...frame.querySelectorAll(':scope>section')];
-const picker=document.querySelector('#reviewPicker');
 let index=Math.max(0,slides.findIndex(slide=>slide.id===decodeURIComponent(location.hash.slice(1))));
-slides.forEach((slide,i)=>{const option=document.createElement('option');const heading=slide.querySelector('h1,h2,h3');option.value=String(i);option.textContent=`${String(i+1).padStart(2,'0')}  ${(heading?.innerText||slide.id).replace(/\s+/g,' ').trim()}`;picker.append(option)});
-function fit(){const scale=Math.min((stage.clientWidth-16)/1920,(stage.clientHeight-16)/1080,1);viewport.style.width=`${1920*scale}px`;viewport.style.height=`${1080*scale}px`;frame.style.transform=`scale(${scale})`}
-function show(next){index=Math.max(0,Math.min(slides.length-1,next));slides.forEach((slide,i)=>slide.classList.toggle('active',i===index));picker.value=String(index);document.querySelector('#reviewPrev').disabled=index===0;document.querySelector('#reviewNext').disabled=index===slides.length-1;document.querySelector('#reviewCounter').textContent=`${index+1} / ${slides.length}`;history.replaceState(null,'',`#${encodeURIComponent(slides[index].id)}`);fit()}
-document.querySelector('#reviewPrev').addEventListener('click',()=>show(index-1));
-document.querySelector('#reviewNext').addEventListener('click',()=>show(index+1));
-picker.addEventListener('change',()=>show(Number(picker.value)));
-document.querySelector('#reviewFullscreen').addEventListener('click',()=>document.documentElement.requestFullscreen?.());
+function fit(){const scale=Math.min(innerWidth/1920,innerHeight/1080);viewport.style.width=`${1920*scale}px`;viewport.style.height=`${1080*scale}px`;frame.style.transform=`scale(${scale})`}
+function show(next){index=Math.max(0,Math.min(slides.length-1,next));slides.forEach((slide,i)=>slide.classList.toggle('active',i===index));history.replaceState(null,'',`#${encodeURIComponent(slides[index].id)}`);fit()}
 addEventListener('resize',fit);
-addEventListener('keydown',event=>{if(event.target.matches('select,button'))return;if(event.key==='ArrowLeft'||event.key==='PageUp')show(index-1);if(event.key==='ArrowRight'||event.key==='PageDown'||event.key===' ')show(index+1);if(event.key==='Home')show(0);if(event.key==='End')show(slides.length-1)});
+addEventListener('keydown',event=>{if(event.target.matches('input,textarea,select,button,[contenteditable="true"]'))return;if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();show(index-1)}if(event.key==='ArrowRight'||event.key==='PageDown'||event.key===' '){event.preventDefault();show(index+1)}if(event.key==='Home'){event.preventDefault();show(0)}if(event.key==='End'){event.preventDefault();show(slides.length-1)}});
+stage.addEventListener('click',event=>{if(event.target.closest('a,button,input,textarea,select,[contenteditable="true"]'))return;show(index+(event.clientX>=innerWidth/2?1:-1))});
+let touchX=null,touchY=null;
+stage.addEventListener('touchstart',event=>{if(event.touches.length!==1)return;touchX=event.touches[0].clientX;touchY=event.touches[0].clientY},{passive:true});
+stage.addEventListener('touchend',event=>{if(touchX===null)return;const dx=event.changedTouches[0].clientX-touchX;const dy=event.changedTouches[0].clientY-touchY;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy))show(index+(dx<0?1:-1));touchX=null;touchY=null},{passive:true});
 show(index);
 </script></body></html>
